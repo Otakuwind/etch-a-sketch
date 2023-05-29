@@ -1,3 +1,11 @@
+let container = document.querySelector('.container');
+let colorButtons = document.querySelectorAll('.color-choice');
+
+let clearButton = document.querySelector('.clear');
+var slider = document.querySelector('#sizeRange');
+
+
+
 document.addEventListener('DOMContentLoaded', () => {
   const container = document.querySelector('.grid');
 
@@ -10,3 +18,11 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 });
+
+
+
+function changeColor(){
+let black = document.getElementsByTagName('Black');
+let rainbow = document.getElementsByTagName('Rainbow');
+let eraser = document.getElementsByTagName('Eraser');
+}
