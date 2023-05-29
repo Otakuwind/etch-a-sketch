@@ -1,0 +1,38 @@
+body{
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.title{
+     font-size: 1.5em;
+    text-align: center;
+    margin: 30px;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/**************Nav bar***************/
+.buttons{
+   padding: 10px;
+    border-radius: 50px;
+    font-size: 20px;
+    color: red;
+    line-height: 27px;
+    background-color: black;
+    border: 1px solid black;
+     
+}
+
+.buttons> .color-choice{
+margin-right: 20px;
+ border-radius: 50px;
+ margin-left: 10px;
+}
+
+
+/**************grid**********************/
+
